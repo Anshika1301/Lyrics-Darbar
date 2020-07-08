@@ -14,6 +14,11 @@ width: 200px;
 height:100px;
 }
 
+.row-cols-5{
+width: 101%;
+overflow: hidden;
+}
+
 .top-bar{
 position: sticky;
 top: 0
@@ -128,15 +133,16 @@ margin-right: 2rem;
 text-align: center;
 margin-bottom: 0.5rem;
 }
+  
+.row-cols-5{
+width: 102%;
+overflow: hidden;
+}
 }
 
 
 @media(max-width: 750px)
 {
-.set-body{
-margin-left: 0;
-}
-
 .set-body-cont{
 margin-left: 2rem;
 }
@@ -158,5 +164,14 @@ padding-top: 30px;
 
 .latest-update{
 display: none;
+}
+}
+
+
+@media(max-width:500px)
+{
+.row-cols-5{
+width: 102%;
+overflow: hidden;
 }
 }
